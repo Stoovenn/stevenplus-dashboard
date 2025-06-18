@@ -1,5 +1,4 @@
 const sheets = {
-  const sheets = {
   logs: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRFumqor16-F0quFqSfj1jle2_ruVI1HI02vFwv1cHxE9qaEkMFcgcfLU1eK7izc1r-9nFmhTCOZ_4R/pub?output=csv',
   goals: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRGimPMHu0yME6QJsVVRbOBeDsQLIZh4eKafc2g87_tXbmVfBUM7tAz2x9D5viaZQsy5pHm5aDjMYF7/pub?output=csv',
   journal: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQKWKtMObQN6VQqztJ92c30XaGudHjseAflB5lu5TQBsos8InBfwsJozakDtScETaoYqB5isEMW07rP/pub?output=csv'
