@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Steven+ Dashboard</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #111;
+      color: #eee;
+      padding: 2rem;
+      max-width: 700px;
+      margin: auto;
+    }
+    h1 {
+      color: #00ff88;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    section {
+      margin-bottom: 2rem;
+      background: #1a1a1a;
+      padding: 1.2rem;
+      border-radius: 12px;
+      box-shadow: 0 0 8px #0f0;
+    }
+    h2 {
+      margin-top: 0;
+      font-size: 1.2rem;
+      color: #00ffaa;
+    }
+    ul {
+      padding-left: 1rem;
+    }
+    .highlight {
+      color: #0f0;
+      font-weight: 600;
+    }
+    .missed {
+      color: #f33;
+    }
+  </style>
+</head>
+<body>
+  <h1>Steven+ Weekly Dashboard</h1>
+
+  <section id="streak">
+    <h2>🔥 Current Streak</h2>
+    <p id="streakCount">Loading...</p>
+  </section>
+
+  <section id="weeklyStats">
+    <h2>📊 Weekly Stats</h2>
+    <ul id="statsList">Loading...</ul>
+  </section>
+
+  <section id="goals">
+    <h2>🎯 Goals</h2>
+    <ul id="goalList">Loading...</ul>
+  </section>
+
+  <section id="journal">
+    <h2>📘 Reflection Journal</h2>
+    <ul id="journalFeed">Loading...</ul>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
